@@ -46,7 +46,7 @@ def connect_network():
         print('Connecting to WiFi...',  end='')
         # Connect to a Wifi Network
         net = WLAN(mode=WLAN.STA)
-        net.connect(ssid='fredrik.madeleine', auth=(WLAN.WPA2, 'lassekongo'))
+        net.connect(ssid='YOUR SSID HERE', auth=(WLAN.WPA2, 'YOUR PASSWORD HERE'))
         timer_counter = 0
         while not net.isconnected():
             print('.', end='')
